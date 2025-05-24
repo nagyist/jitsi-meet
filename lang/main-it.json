@@ -124,7 +124,8 @@
             "title": "Inserisci un nickname per usare la chat",
             "titleWithCC": "Inserisci un nickname per usare la chat e i sottotitoli",
             "titleWithPolls": "Inserisci un nickname per usare la chat e i sondaggi",
-            "titleWithPollsAndCC": "Inserisci un nickname per usare la chat, i sondaggi e i sottotitoli"
+            "titleWithPollsAndCC": "Inserisci un nickname per usare la chat, i sondaggi e i sottotitoli",
+            "titleWithPollsAndCCAndFileSharing": "Inserisci un nickname per usare la chat, i sondaggi, i sottotitoli e i file"
         },
         "noMessagesMessage": "Non ci sono ancora messaggi nella riunione. Inizia una conversazione, qui!",
         "privateNotice": "Messaggio privato a {{recipient}}",
@@ -134,12 +135,14 @@
         "tabs": {
             "chat": "Chat",
             "closedCaptions": "Sottotitoli",
+            "fileSharing": "File",
             "polls": "Sondaggi"
         },
         "title": "Chat",
-        "titleWithCC": "Chat e sottotitoli",
-        "titleWithPolls": "Chat e sondaggi",
-        "titleWithPollsAndCC": "Chat, sondaggi e sottotitoli",
+        "titleWithCC": "Sottotitoli",
+        "titleWithFeatures": "Chat e",
+        "titleWithFileSharing": "File",
+        "titleWithPolls": "Sondaggi",
         "you": "tu"
     },
     "chromeExtensionBanner": {
@@ -272,7 +275,8 @@
         "Remove": "Rimuovi",
         "Share": "Condividi",
         "Submit": "Invia",
-        "Understand": "Accetto",
+        "Understand": "Accetto, mantieni microfono e videocamera disattivati per ora",
+        "UnderstandAndUnmute": "Accetto, riattiva microfono e videocamera",
         "WaitForHostMsg": "La riunione non è ancora iniziata. Se sei l'organizzatore, per favore autenticati. Altrimenti, attendi l'arrivo dell'organizzatore.",
         "WaitForHostNoAuthMsg": "La riunione non è ancora iniziata perché nessun organizzatore si è ancora collegato. Si prega di attendere.",
         "WaitingForHostButton": "Attendi l'organizzatore",
@@ -309,6 +313,7 @@
         "conferenceReloadMsg": "Risoluzione del problema in corso. Tentativo di riconnessione tra {{seconds}} secondi…",
         "conferenceReloadTitle": "Purtroppo qualcosa è andato storto.",
         "confirm": "Conferma",
+        "confirmBack": "Indietro",
         "confirmNo": "No",
         "confirmYes": "Sì",
         "connectError": "Ops! Qualcosa è andato storto e non è stato possibile collegarsi alla riunione.",
@@ -346,6 +351,7 @@
         "kickParticipantTitle": "Espellere questo partecipante?",
         "kickSystemTitle": "Oh! Sei stato espulso dalla riunione",
         "kickTitle": "Oh! {{participantDisplayName}} ti ha espulso dalla riunione.",
+        "learnMore": "ulteriori informazioni",
         "linkMeeting": "Collega la riunione",
         "linkMeetingTitle": "Collega la riunione a Salesforce",
         "liveStreaming": "Diretta",
@@ -403,7 +409,9 @@
         "recentlyUsedObjects": "Oggetti usati di recente",
         "recording": "Registrazione",
         "recordingDisabledBecauseOfActiveLiveStreamingTooltip": "Impossibile durante una diretta.",
-        "recordingInProgressDescription": "La registrazione di questa riunione è in corso. I tuoi audio e video sono stati disattivati. Riattivandoli, acconsenti ad essere registrato.",
+        "recordingInProgressDescription": "Questa riunione sta venendo registrata e analizzata dall'IA. I tuoi audio e video sono stati disattivati. Riattivandoli, acconsenti ad essere registrato.",
+        "recordingInProgressDescriptionFirstHalf": "Questa riunione sta venendo registrata e analizzata dall'IA",
+        "recordingInProgressDescriptionSecondHalf": ". I tuoi audio e video sono stati disattivati. Riattivandoli, acconsenti ad essere registrato.",
         "recordingInProgressTitle": "Registrazione in corso",
         "rejoinNow": "Ricollegati ora",
         "remoteControlAllowedMessage": "{{user}} ha accettato la tua richiesta di controllo remoto!",
@@ -533,6 +541,17 @@
         "star": "Stella",
         "veryBad": "Pessima",
         "veryGood": "Ottima"
+    },
+    "fileSharing": {
+        "downloadFailedDescription": "Si prega di riprovare.",
+        "downloadFailedTitle": "Download non riuscito",
+        "downloadFile": "Download",
+        "dragAndDrop": "Trascina e rilascia i file qui",
+        "fileAlreadyUploaded": "Questo file è già stato caricato nella riunione",
+        "removeFile": "Rimuovi",
+        "uploadFailedDescription": "Si prega di riprovare.",
+        "uploadFailedTitle": "Caricamento non riuscito",
+        "uploadFile": "Condividi file"
     },
     "filmstrip": {
         "accessibilityLabel": {

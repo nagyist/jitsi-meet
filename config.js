@@ -128,6 +128,9 @@ var config = {
     // Disables the reactions moderation feature.
     // disableReactionsModeration: false,
 
+    // Disables the reactions in chat feature.
+    // disableReactionsInChat: false,
+
     // Disables polls feature.
     // disablePolls: false,
 
@@ -502,6 +505,11 @@ var config = {
     //     // Enables automatic request of subtitles when transcriber is present in the meeting, uses the default
     //     // language that is set
     //     autoCaptionOnTranscribe: false,
+    //
+    //     // Disables everything related to closed captions - the tab in the chat area, the button in the menu,
+    //     // subtitles on stage and the "Show subtitles on stage" checkbox in the settings.
+    //     // Note: Starting transcriptions from the recording dialog will still work.
+    //     disableClosedCaptions: false
     // },
 
     // Misc
@@ -613,6 +621,7 @@ var config = {
     //     medium: 5000,
     //     long: 10000,
     //     extraLong: 60000,
+    //     sticky: 0,
     // },
 
     // // Options for the recording limit notification.
@@ -1882,6 +1891,14 @@ var config = {
 
     // If true remove the tint foreground on focused user camera in filmstrip
     // disableCameraTintForeground: false,
+
+    // File sharign service.
+    // fileSharing: {
+    //     // The URL of the file sharing service API. See resources/file-sharing.yaml for more details.
+    //     apiUrl: 'https://example.com',
+    //     // Whether the file sharing service is enabled or not.
+    //     enabled: true,
+    // },
 };
 
 // Set the default values for JaaS customers
